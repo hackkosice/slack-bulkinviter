@@ -71,6 +71,5 @@ for user_id, user_name in users:
             raise
 
     if args.sleep:
-        print("Sleeping {} seconds".format(args.sleep))
         time.sleep(args.sleep)
 
